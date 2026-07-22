@@ -46,10 +46,6 @@ Here are some ideas to get you started:
 
 <h2>📊 GitHub Analytics</h2>
 
-<p align="center">
-  <i>Building consistently, one commit at a time. ✨</i>
-</p>
-
 <!-- Profile overview -->
 <p align="center">
   <img
