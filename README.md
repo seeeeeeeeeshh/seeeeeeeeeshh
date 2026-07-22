@@ -44,23 +44,20 @@ Here are some ideas to get you started:
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <a href="https://github.com/seeeeeeeeeshh">
-    <img
-      height="165"
-      src="https://github-readme-stats.vercel.app/api?username=seeeeeeeeeshh&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&theme=transparent"
-      alt="Shrish's GitHub statistics"
-    />
-  </a>
-  <a href="https://github.com/seeeeeeeeeshh">
-    <img
-      height="165"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=seeeeeeeeeshh&layout=compact&hide_border=true&theme=transparent&langs_count=8"
-      alt="Shrish's most-used languages"
-    />
-  </a>
+  <img width="96%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/0-profile-details.svg"/>
+</p>
+
+<p align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/3-stats.svg"/>
+  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"/>
+</p>
+
+<p align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/2-most-commit-language.svg"/>
+  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/4-productive-time.svg"/>
 </p>
 
 ---
