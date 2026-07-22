@@ -44,20 +44,65 @@ Here are some ideas to get you started:
 
 ---
 
-## 📊 GitHub Analytics
+<h2>📊 GitHub Analytics</h2>
 
 <p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/0-profile-details.svg"/>
+  <i>Building consistently, one commit at a time. ✨</i>
 </p>
 
+<!-- Profile overview -->
 <p align="center">
-  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/3-stats.svg"/>
-  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"/>
+  <img
+    width="98%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seeeeeeeeeshh&theme=tokyonight"
+    alt="GitHub profile overview"
+  />
 </p>
 
+<!-- Contribution activity -->
 <p align="center">
-  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/2-most-commit-language.svg"/>
-  <img width="48%" src="https://raw.githubusercontent.com/seeeeeeeeeshh/seeeeeeeeeshh/main/profile-summary-card-output/github_dark/4-productive-time.svg"/>
+  <img
+    width="98%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=seeeeeeeeeshh&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity"
+    alt="GitHub contribution activity"
+  />
+</p>
+
+<!-- Main stats and language breakdown -->
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seeeeeeeeeshh&theme=tokyonight"
+    alt="GitHub statistics"
+  />
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seeeeeeeeeshh&theme=tokyonight"
+    alt="Top languages by commit"
+  />
+</p>
+
+<!-- Repository languages and productive time -->
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=seeeeeeeeeshh&theme=tokyonight"
+    alt="Top languages by repository"
+  />
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=seeeeeeeeeshh&theme=tokyonight&utcOffset=8"
+    alt="Productive coding time"
+  />
+</p>
+
+<!-- Streak card -->
+<p align="center">
+  <img
+    width="70%"
+    src="https://streak-stats.demolab.com?user=seeeeeeeeeshh&theme=tokyonight&hide_border=true&border_radius=10&short_numbers=true"
+    alt="GitHub contribution streak"
+  />
 </p>
 
 ---
