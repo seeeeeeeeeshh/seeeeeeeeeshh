@@ -25,38 +25,21 @@ Here are some ideas to get you started:
 
 ### Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,java" />
-</p>
-
-### Frontend
+## 🛠 Tech Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind" />
-</p>
-
-### Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-</p>
-
-### Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql" />
-</p>
-
-### AI / ML
-
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
-</p>
-
-### Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma" />
+<img src="https://skillicons.dev/icons?i=python" height="22"/> Python &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=js" height="22"/> JavaScript &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=ts" height="22"/> TypeScript &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=react" height="22"/> React &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=nextjs" height="22"/> Next.js &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=nodejs" height="22"/> Node.js &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=supabase" height="22"/> Supabase &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=postgres" height="22"/> PostgreSQL &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=mongodb" height="22"/> MongoDB &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=express" height="22"/> Express &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=mysql" height="22"/> MySQL &nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=docker" height="22"/> Docker &nbsp;&nbsp;
 </p>
 
 ---
@@ -64,13 +47,20 @@ Here are some ideas to get you started:
 ## 📈 GitHub Stats
 
 <p align="center">
-
-<img height="170"
-src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
-
+  <a href="https://github.com/seeeeeeeeeshh">
+    <img
+      height="165"
+      src="https://github-readme-stats.vercel.app/api?username=seeeeeeeeeshh&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&theme=transparent"
+      alt="Shrish's GitHub statistics"
+    />
+  </a>
+  <a href="https://github.com/seeeeeeeeeshh">
+    <img
+      height="165"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=seeeeeeeeeshh&layout=compact&hide_border=true&theme=transparent&langs_count=8"
+      alt="Shrish's most-used languages"
+    />
+  </a>
 </p>
 
 ---
