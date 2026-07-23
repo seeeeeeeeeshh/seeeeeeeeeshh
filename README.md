@@ -111,9 +111,9 @@ Here are some ideas to get you started:
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
-<a href="https://github.com/seeeeeeeeeshh">
+<!-- <a href="https://github.com/seeeeeeeeeshh">
 <img src="https://skillicons.dev/icons?i=github"/>
-</a>
+</a> -->
 
 <a href="mailto:shrish.regmi@email.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
