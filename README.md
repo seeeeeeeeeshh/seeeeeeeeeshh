@@ -27,10 +27,11 @@
   <a href="https://linkedin.com/in/shrish-regmi/">
     <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" />
   </a>
-  <a href="mailto:REPLACE_WITH_REAL_EMAIL">
+  <a href="mailto:shrish.regmi@gmail.com>
     <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email" />
   </a>
 </p>
 
-- 🌐 [Portfolio](REPLACE_WITH_PORTFOLIO_URL)
+<!-- 🌐 [Portfolio](REPLACE_WITH_PORTFOLIO_URL)
 - ✉️ [Email](mailto:REPLACE_WITH_REAL_EMAIL)
+-->
