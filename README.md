@@ -1,76 +1,36 @@
-<!--
-**seeeeeeeeeshh/seeeeeeeeeshh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hello, this is Shrish
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-## 🚀 About Me
+## About Me
 
 - 🤖 Interested in **Artificial Intelligence, Machine Learning, and Full Stack Development**
 - 🌱 Currently learning **Machine Learning by building real-world projects**
 - 💡 Passionate about FinTech, Data, and Product Engineering
-- 📫 Reach me at **shrish.regmi@email.com**
+- 📫 Reach me at **shrish.regmi@gmail.com**
 
 ---
-
-## 🛠 Tech Stack
-
-### Languages
 
 ## 🛠 Tech Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=python" height="22"/> Python &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=js" height="22"/> JavaScript &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=ts" height="22"/> TypeScript &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=react" height="22"/> React &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=nextjs" height="22"/> Next.js &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=nodejs" height="22"/> Node.js &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=supabase" height="22"/> Supabase &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=postgres" height="22"/> PostgreSQL &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=mongodb" height="22"/> MongoDB &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=express" height="22"/> Express &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=mysql" height="22"/> MySQL &nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=docker" height="22"/> Docker &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,nodejs,express,postgres,mysql,mongodb,supabase,docker" alt="Python, JavaScript, TypeScript, React, Next.js, Node.js, Express, PostgreSQL, MySQL, MongoDB, Supabase, Docker" />
 </p>
 
 ---
 
-<!-- Profile overview -->
-<p align="center">
-  <img
-    src="./assets/github-dashboard.svg"
-    width="100%"
-    alt="Shrish Regmi GitHub analytics dashboard"
-  />
-</p>
+[![Shrish Regmi GitHub analytics dashboard](https://github.com/seeeeeeeeeshh/seeeeeeeeeshh/raw/main/assets/github-dashboard.svg)](https://github.com/seeeeeeeeeshh/seeeeeeeeeshh/blob/main/assets/github-dashboard.svg)
 
 ---
 
 ## 🤝 Let's Connect
 
 <p>
-
-<a href="https://linkedin.com/in/shrish-regmi/">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<!-- <a href="https://github.com/seeeeeeeeeshh">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a> -->
-
-<a href="mailto:shrish.regmi@email.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
+  <a href="https://linkedin.com/in/shrish-regmi/">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" />
+  </a>
+  <a href="mailto:REPLACE_WITH_REAL_EMAIL">
+    <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email" />
+  </a>
 </p>
-Portfolio
-Email
+
+- 🌐 [Portfolio](REPLACE_WITH_PORTFOLIO_URL)
+- ✉️ [Email](mailto:REPLACE_WITH_REAL_EMAIL)
