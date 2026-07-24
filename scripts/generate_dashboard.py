@@ -320,8 +320,13 @@ def generate_svg(user: dict[str, Any]) -> str:
 
     language_total = sum(item["size"] for item in languages) or 1
     donut_parts: list[str] = []
+    donut_legend: list[str] = []
     offset = 0.0
     circumference = 2 * 3.14159265 * 68
+
+    # Donut shifted left to 660 to leave room for the legend on the right.
+    donut_cx = 660
+    donut_cy = 825
 
     for language in languages:
         fraction = language["size"] / language_total
@@ -329,17 +334,39 @@ def generate_svg(user: dict[str, Any]) -> str:
 
         donut_parts.append(
             f"""
-            <circle cx="745" cy="825" r="68"
+            <circle cx="{donut_cx}" cy="{donut_cy}" r="68"
                     fill="none"
                     stroke="{escape(language['color'])}"
                     stroke-width="26"
                     stroke-dasharray="{segment:.2f} {circumference - segment:.2f}"
                     stroke-dashoffset="{-offset:.2f}"
-                    transform="rotate(-90 745 825)"/>
+                    transform="rotate(-90 {donut_cx} {donut_cy})"/>
             """
         )
 
         offset += segment
+
+    # Legend to the right of the donut, one row per language.
+    legend_x = 772
+    legend_top = 772
+    row_height = 27
+
+    for index, language in enumerate(languages):
+        row_y = legend_top + index * row_height
+
+        donut_legend.append(
+            f"""
+            <rect x="{legend_x}" y="{row_y - 11}" width="13" height="13"
+                  rx="3" fill="{escape(language['color'])}"/>
+            <text x="{legend_x + 22}" y="{row_y}" font-size="14" fill="#D9E2F1">
+              {escape(language["name"])}
+            </text>
+            <text x="945" y="{row_y}" text-anchor="end"
+                  font-size="14" fill="#AAB7CC">
+              {language["percentage"]:.1f}%
+            </text>
+            """
+        )
 
     avatar = (
         f"""
@@ -579,9 +606,11 @@ def generate_svg(user: dict[str, Any]) -> str:
 
       {"".join(donut_parts)}
 
-      <circle cx="745" cy="825" r="46" fill="#0B1421"/>
-      <text x="745" y="835" text-anchor="middle"
+      <circle cx="660" cy="825" r="46" fill="#0B1421"/>
+      <text x="660" y="835" text-anchor="middle"
             font-size="26" fill="#8091AA">‹/›</text>
+
+      {"".join(donut_legend)}
 
       <!-- Language bars -->
       <rect class="panel" x="982" y="660" width="490" height="290" rx="16"/>
