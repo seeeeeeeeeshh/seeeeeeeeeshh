@@ -304,64 +304,14 @@ def generate_svg(user: dict[str, Any]) -> str:
 
         language_elements.append(
             f"""
-            <text x="1040" y="{y}" font-size="16" fill="#D9E2F1">
+            <text x="813" y="{y}" font-size="16" fill="#D9E2F1">
               {escape(language["name"])}
             </text>
-            <rect x="1180" y="{y - 14}" width="225" height="12"
+            <rect x="1010" y="{y - 14}" width="360" height="12"
                   rx="6" fill="#1B2737"/>
-            <rect x="1180" y="{y - 14}" width="{bar_width:.1f}" height="12"
+            <rect x="1010" y="{y - 14}" width="{bar_width:.1f}" height="12"
                   rx="6" fill="{escape(language['color'])}"/>
             <text x="1420" y="{y}" text-anchor="end"
-                  font-size="14" fill="#AAB7CC">
-              {language["percentage"]:.1f}%
-            </text>
-            """
-        )
-
-    language_total = sum(item["size"] for item in languages) or 1
-    donut_parts: list[str] = []
-    donut_legend: list[str] = []
-    offset = 0.0
-    circumference = 2 * 3.14159265 * 68
-
-    # Donut shifted left to 660 to leave room for the legend on the right.
-    donut_cx = 660
-    donut_cy = 825
-
-    for language in languages:
-        fraction = language["size"] / language_total
-        segment = fraction * circumference
-
-        donut_parts.append(
-            f"""
-            <circle cx="{donut_cx}" cy="{donut_cy}" r="68"
-                    fill="none"
-                    stroke="{escape(language['color'])}"
-                    stroke-width="26"
-                    stroke-dasharray="{segment:.2f} {circumference - segment:.2f}"
-                    stroke-dashoffset="{-offset:.2f}"
-                    transform="rotate(-90 {donut_cx} {donut_cy})"/>
-            """
-        )
-
-        offset += segment
-
-    # Legend to the right of the donut, one row per language.
-    legend_x = 772
-    legend_top = 772
-    row_height = 27
-
-    for index, language in enumerate(languages):
-        row_y = legend_top + index * row_height
-
-        donut_legend.append(
-            f"""
-            <rect x="{legend_x}" y="{row_y - 11}" width="13" height="13"
-                  rx="3" fill="{escape(language['color'])}"/>
-            <text x="{legend_x + 22}" y="{row_y}" font-size="14" fill="#D9E2F1">
-              {escape(language["name"])}
-            </text>
-            <text x="945" y="{row_y}" text-anchor="end"
                   font-size="14" fill="#AAB7CC">
               {language["percentage"]:.1f}%
             </text>
@@ -546,7 +496,7 @@ def generate_svg(user: dict[str, Any]) -> str:
       </text>
 
       <!-- Bottom stats panel -->
-      <rect class="panel" x="28" y="660" width="455" height="290" rx="16"/>
+      <rect class="panel" x="28" y="660" width="705" height="290" rx="16"/>
       <text x="58" y="713" font-size="25" fill="#A855F7">▥</text>
       <text x="97" y="713" font-size="25" class="heading">
         GitHub Statistics
@@ -592,30 +542,15 @@ def generate_svg(user: dict[str, Any]) -> str:
         Issues · last year
       </text>
 
-      <rect x="52" y="917" width="406" height="9"
+      <rect x="52" y="917" width="656" height="9"
             rx="5" fill="#1B2737"/>
-      <rect x="52" y="917" width="315" height="9"
+      <rect x="52" y="917" width="509" height="9"
             rx="5" fill="url(#progressLine)"/>
 
-      <!-- Donut panel -->
-      <rect class="panel" x="505" y="660" width="455" height="290" rx="16"/>
-      <text x="535" y="713" font-size="25" fill="#C84DFF">‹›</text>
-      <text x="574" y="713" font-size="25" class="heading">
-        Top Languages by Commit
-      </text>
-
-      {"".join(donut_parts)}
-
-      <circle cx="660" cy="825" r="46" fill="#0B1421"/>
-      <text x="660" y="835" text-anchor="middle"
-            font-size="26" fill="#8091AA">‹/›</text>
-
-      {"".join(donut_legend)}
-
       <!-- Language bars -->
-      <rect class="panel" x="982" y="660" width="490" height="290" rx="16"/>
-      <text x="1012" y="713" font-size="25" fill="#F5C518">ϟ</text>
-      <text x="1050" y="713" font-size="25" class="heading">
+      <rect class="panel" x="755" y="660" width="705" height="290" rx="16"/>
+      <text x="785" y="713" font-size="25" fill="#F5C518">ϟ</text>
+      <text x="823" y="713" font-size="25" class="heading">
         Most Used Languages
       </text>
 
