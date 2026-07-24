@@ -1,0 +1,51 @@
+name: Generate GitHub Dashboard
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Refresh every day at 00:15 UTC
+    - cron: "15 0 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_dashboard.py"
+      - ".github/workflows/generate-dashboard.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-dashboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python scripts/generate_dashboard.py
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-dashboard.svg
+
+          if git diff --cached --quiet; then
+            echo "Dashboard is already up to date."
+          else
+            git commit -m "chore: update GitHub analytics dashboard"
+            git push
+          fi
