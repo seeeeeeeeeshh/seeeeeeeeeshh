@@ -222,7 +222,7 @@
       </text>
 
       <!-- Bottom stats panel -->
-      <rect class="panel" x="28" y="660" width="455" height="290" rx="16"/>
+      <rect class="panel" x="28" y="660" width="705" height="290" rx="16"/>
       <text x="58" y="713" font-size="25" fill="#A855F7">▥</text>
       <text x="97" y="713" font-size="25" class="heading">
         GitHub Statistics
@@ -268,178 +268,73 @@
         Issues · last year
       </text>
 
-      <rect x="52" y="917" width="406" height="9"
+      <rect x="52" y="917" width="656" height="9"
             rx="5" fill="#1B2737"/>
-      <rect x="52" y="917" width="315" height="9"
+      <rect x="52" y="917" width="509" height="9"
             rx="5" fill="url(#progressLine)"/>
 
-      <!-- Donut panel -->
-      <rect class="panel" x="505" y="660" width="455" height="290" rx="16"/>
-      <text x="535" y="713" font-size="25" fill="#C84DFF">‹›</text>
-      <text x="574" y="713" font-size="25" class="heading">
-        Top Languages by Commit
-      </text>
-
-      
-            <circle cx="660" cy="825" r="68"
-                    fill="none"
-                    stroke="#f1e05a"
-                    stroke-width="26"
-                    stroke-dasharray="181.71 245.55"
-                    stroke-dashoffset="-0.00"
-                    transform="rotate(-90 660 825)"/>
-            
-            <circle cx="660" cy="825" r="68"
-                    fill="none"
-                    stroke="#3178c6"
-                    stroke-width="26"
-                    stroke-dasharray="148.79 278.47"
-                    stroke-dashoffset="-181.71"
-                    transform="rotate(-90 660 825)"/>
-            
-            <circle cx="660" cy="825" r="68"
-                    fill="none"
-                    stroke="#DA5B0B"
-                    stroke-width="26"
-                    stroke-dasharray="47.02 380.24"
-                    stroke-dashoffset="-330.50"
-                    transform="rotate(-90 660 825)"/>
-            
-            <circle cx="660" cy="825" r="68"
-                    fill="none"
-                    stroke="#3572A5"
-                    stroke-width="26"
-                    stroke-dasharray="44.64 382.62"
-                    stroke-dashoffset="-377.52"
-                    transform="rotate(-90 660 825)"/>
-            
-            <circle cx="660" cy="825" r="68"
-                    fill="none"
-                    stroke="#663399"
-                    stroke-width="26"
-                    stroke-dasharray="5.10 422.16"
-                    stroke-dashoffset="-422.16"
-                    transform="rotate(-90 660 825)"/>
-            
-
-      <circle cx="660" cy="825" r="46" fill="#0B1421"/>
-      <text x="660" y="835" text-anchor="middle"
-            font-size="26" fill="#8091AA">‹/›</text>
-
-      
-            <rect x="772" y="761" width="13" height="13"
-                  rx="3" fill="#f1e05a"/>
-            <text x="794" y="772" font-size="14" fill="#D9E2F1">
-              JavaScript
-            </text>
-            <text x="945" y="772" text-anchor="end"
-                  font-size="14" fill="#AAB7CC">
-              42.5%
-            </text>
-            
-            <rect x="772" y="788" width="13" height="13"
-                  rx="3" fill="#3178c6"/>
-            <text x="794" y="799" font-size="14" fill="#D9E2F1">
-              TypeScript
-            </text>
-            <text x="945" y="799" text-anchor="end"
-                  font-size="14" fill="#AAB7CC">
-              34.8%
-            </text>
-            
-            <rect x="772" y="815" width="13" height="13"
-                  rx="3" fill="#DA5B0B"/>
-            <text x="794" y="826" font-size="14" fill="#D9E2F1">
-              Jupyter Notebook
-            </text>
-            <text x="945" y="826" text-anchor="end"
-                  font-size="14" fill="#AAB7CC">
-              11.0%
-            </text>
-            
-            <rect x="772" y="842" width="13" height="13"
-                  rx="3" fill="#3572A5"/>
-            <text x="794" y="853" font-size="14" fill="#D9E2F1">
-              Python
-            </text>
-            <text x="945" y="853" text-anchor="end"
-                  font-size="14" fill="#AAB7CC">
-              10.4%
-            </text>
-            
-            <rect x="772" y="869" width="13" height="13"
-                  rx="3" fill="#663399"/>
-            <text x="794" y="880" font-size="14" fill="#D9E2F1">
-              CSS
-            </text>
-            <text x="945" y="880" text-anchor="end"
-                  font-size="14" fill="#AAB7CC">
-              1.2%
-            </text>
-            
-
       <!-- Language bars -->
-      <rect class="panel" x="982" y="660" width="490" height="290" rx="16"/>
-      <text x="1012" y="713" font-size="25" fill="#F5C518">ϟ</text>
-      <text x="1050" y="713" font-size="25" class="heading">
+      <rect class="panel" x="755" y="660" width="705" height="290" rx="16"/>
+      <text x="785" y="713" font-size="25" fill="#F5C518">ϟ</text>
+      <text x="823" y="713" font-size="25" class="heading">
         Most Used Languages
       </text>
 
       
-            <text x="1040" y="777" font-size="16" fill="#D9E2F1">
+            <text x="813" y="777" font-size="16" fill="#D9E2F1">
               JavaScript
             </text>
-            <rect x="1180" y="763" width="225" height="12"
+            <rect x="1010" y="763" width="360" height="12"
                   rx="6" fill="#1B2737"/>
-            <rect x="1180" y="763" width="131.6" height="12"
+            <rect x="1010" y="763" width="132.2" height="12"
                   rx="6" fill="#f1e05a"/>
             <text x="1420" y="777" text-anchor="end"
                   font-size="14" fill="#AAB7CC">
-              42.5%
+              42.6%
             </text>
             
-            <text x="1040" y="816" font-size="16" fill="#D9E2F1">
+            <text x="813" y="816" font-size="16" fill="#D9E2F1">
               TypeScript
             </text>
-            <rect x="1180" y="802" width="225" height="12"
+            <rect x="1010" y="802" width="360" height="12"
                   rx="6" fill="#1B2737"/>
-            <rect x="1180" y="802" width="107.8" height="12"
+            <rect x="1010" y="802" width="108.2" height="12"
                   rx="6" fill="#3178c6"/>
             <text x="1420" y="816" text-anchor="end"
                   font-size="14" fill="#AAB7CC">
-              34.8%
+              34.9%
             </text>
             
-            <text x="1040" y="855" font-size="16" fill="#D9E2F1">
+            <text x="813" y="855" font-size="16" fill="#D9E2F1">
               Jupyter Notebook
             </text>
-            <rect x="1180" y="841" width="225" height="12"
+            <rect x="1010" y="841" width="360" height="12"
                   rx="6" fill="#1B2737"/>
-            <rect x="1180" y="841" width="34.1" height="12"
+            <rect x="1010" y="841" width="34.2" height="12"
                   rx="6" fill="#DA5B0B"/>
             <text x="1420" y="855" text-anchor="end"
                   font-size="14" fill="#AAB7CC">
               11.0%
             </text>
             
-            <text x="1040" y="894" font-size="16" fill="#D9E2F1">
+            <text x="813" y="894" font-size="16" fill="#D9E2F1">
               Python
             </text>
-            <rect x="1180" y="880" width="225" height="12"
+            <rect x="1010" y="880" width="360" height="12"
                   rx="6" fill="#1B2737"/>
-            <rect x="1180" y="880" width="32.3" height="12"
+            <rect x="1010" y="880" width="31.2" height="12"
                   rx="6" fill="#3572A5"/>
             <text x="1420" y="894" text-anchor="end"
                   font-size="14" fill="#AAB7CC">
-              10.4%
+              10.1%
             </text>
             
-            <text x="1040" y="933" font-size="16" fill="#D9E2F1">
+            <text x="813" y="933" font-size="16" fill="#D9E2F1">
               CSS
             </text>
-            <rect x="1180" y="919" width="225" height="12"
+            <rect x="1010" y="919" width="360" height="12"
                   rx="6" fill="#1B2737"/>
-            <rect x="1180" y="919" width="10.0" height="12"
+            <rect x="1010" y="919" width="10.0" height="12"
                   rx="6" fill="#663399"/>
             <text x="1420" y="933" text-anchor="end"
                   font-size="14" fill="#AAB7CC">
