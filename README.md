@@ -8,7 +8,6 @@
 - 📫 Reach me at **shrish.regmi@gmail.com**
 
 ---
-
 ## 🛠 Tech Stack
 
 <p>
